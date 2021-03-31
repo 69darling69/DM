@@ -112,12 +112,12 @@ for (let i = 0; i < injury.length; i++) {
 
 function RandomInjury()
 {
-    i = Math.floor(Math.random() * 99)
-    random.innerHTML = innerHTML = "<td>" + injury[i]["Тяжесть"] + "</td><td>" + injury[i]["d100"] + "</td><td>" + injury[i]["Тип"] + "</td><td>" + injury[i]["Описание"] + "</td><td>" + injury[i]["Лечение"] + "</td><td>" + injury[i]["Длительность"] + "</td><td>" + injury[i]["Дополнительно"] + "</td>";
+    i = Math.floor(Math.random() * crit.length);
+    random.innerHTML = "<td>" + injury[i]["Тяжесть"] + "</td><td>" + injury[i]["d100"] + "</td><td>" + injury[i]["Тип"] + "</td><td>" + injury[i]["Описание"] + "</td><td>" + injury[i]["Лечение"] + "</td><td>" + injury[i]["Длительность"] + "</td><td>" + injury[i]["Дополнительно"] + "</td>";
 }
 
 function ChooseInjury()
 {
     i = document.getElementById("text").value - 1;
-    random.innerHTML = innerHTML = "<td>" + injury[i]["Тяжесть"] + "</td><td>" + injury[i]["d100"] + "</td><td>" + injury[i]["Тип"] + "</td><td>" + injury[i]["Описание"] + "</td><td>" + injury[i]["Лечение"] + "</td><td>" + injury[i]["Длительность"] + "</td><td>" + injury[i]["Дополнительно"] + "</td>";
+    random.innerHTML = "<td>" + injury[i]["Тяжесть"] + "</td><td>" + injury[i]["d100"] + "</td><td>" + injury[i]["Тип"] + "</td><td>" + injury[i]["Описание"] + "</td><td>" + injury[i]["Лечение"] + "</td><td>" + injury[i]["Длительность"] + "</td><td>" + injury[i]["Дополнительно"] + "</td>";
 }

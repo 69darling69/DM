@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.critTable {
+    border: 1px solid;
+    width: 100%;
+}
+
+.critTable th {
+    font-weight: bold;
+    text-align: left;
+}
+
+.critTable tr:nth-of-type(even) {
+    background-color: #DCEDFF;
+}
+
+#random {
+    background-color: #98caff;
+}

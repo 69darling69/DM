@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>DMs [Injury]</title>
+    <link rel="stylesheet" href="crit.css">
+</head>
+<body>
+    <div>
+        <a href="../index.html">Домой</a>
+        <input type="number" id="text" placeholder="Выпавшее значение" min="1", max="200">
+        <input type="button" value="Крит по номеру" onclick="ChooseCrit();">
+        <input type="button" value="Случайный крит" onclick="RandomCrit();">
+    </div>
+
+    <table rules="all" id="critTable" class="critTable">
+        <tr id="random">
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <th>Удача</th>
+            <th>d200</th>
+            <th>Провал</th>
+        </tr>
+    </table>
+    <script src="crit.js"></script>
+</body>
+</html>
