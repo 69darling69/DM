@@ -2,3 +2,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.injuryTable {
+    border: 1px solid;
+    width: 100%;
+}
+
+.injuryTable th {
+    font-weight: bold;
+    text-align: left;
+}
+
+.injuryTable tr:nth-of-type(even) {
+    background-color: #DCEDFF;
+}
+
+#random {
+    background-color: #98caff;
+}
