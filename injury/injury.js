@@ -112,7 +112,7 @@ for (let i = 0; i < injury.length; i++) {
 
 function RandomInjury()
 {
-    i = Math.floor(Math.random() * crit.length);
+    i = Math.floor(Math.random() * injury.length);
     random.innerHTML = "<td>" + injury[i]["Тяжесть"] + "</td><td>" + injury[i]["d100"] + "</td><td>" + injury[i]["Тип"] + "</td><td>" + injury[i]["Описание"] + "</td><td>" + injury[i]["Лечение"] + "</td><td>" + injury[i]["Длительность"] + "</td><td>" + injury[i]["Дополнительно"] + "</td>";
 }
 
