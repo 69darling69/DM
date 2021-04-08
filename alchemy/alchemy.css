@@ -1,40 +1,46 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #3d969050;
+    color: #023026;
 }
 
 table {
-    border: 1px solid;
+    border: 2px solid #023026;
 }
 
-table th {
+td {
+    padding: .1em .2em;
+}
+
+th {
     text-align: left;
 }
 
 details {
     border: 1px solid;
+    border-radius: 10px;
     margin: 1em;
     padding: 1em;
-    background-color: rgba(128, 0, 255, 0.1);
+    background-color: #3d969050;
 }
 
 details>summary {
     transition: all .5s ease;
     list-style: none;
-    background-color: white;
-    color: rgb(128, 0, 255);
-    background-color: rgba(0, 0, 0, 0);
+    color: #023026;
+    border-radius: 10px;
     padding-top: -3em;
+    display: inline-block;
+    width: 100%;
 }
-/*
-details:not([open]) {
-    background-color: red;
-}*/
+details>summary>h1,h2,h3,h4,h5,h6 {
+    margin: 1em;
+}
 
 summary:hover {
     transition: all .1s linear;
-    background-color: rgb(128, 0, 255);
-    color: white;
+    background-color: #3d9690;
     cursor: pointer;
 }
 
