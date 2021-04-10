@@ -12,6 +12,7 @@ table {
 
 td {
     padding: .1em .2em;
+    border: 1px solid #023026;
 }
 
 th {
@@ -45,12 +46,13 @@ summary:hover {
     cursor: pointer;
 }
 
-span {
+span, td[title] {
     text-decoration-line: underline;
     transition: all .1s linear;
 }
 
-span:hover {
+span:hover, td[title]:hover {
     transition: all .1s linear;
     color: white;
+    cursor: help;
 }
