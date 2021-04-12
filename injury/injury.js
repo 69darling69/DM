@@ -110,6 +110,8 @@ for (let i = 0; i < injury.length; i++) {
     table.appendChild(tr);
 }
 
+document.getElementById("text").addEventListener("keyup", function(e) {if (e.code == "Enter") ChooseInjury()})
+
 function RandomInjury()
 {
     i = Math.floor(Math.random() * injury.length);

@@ -1204,6 +1204,8 @@ for (let i = 0; i < crit.length; i++) {
     table.appendChild(tr);
 }
 
+document.getElementById("text").addEventListener("keyup", function(e) {if (e.code == "Enter") ChooseCrit()})
+
 function RandomCrit()
 {
     let i = 1;
