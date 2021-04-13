@@ -6,6 +6,7 @@ body {
 .critTable {
     border: 1px solid;
     width: 100%;
+    border-collapse: separate;
 }
 
 .critTable th {
@@ -19,9 +20,13 @@ body {
 
 .critTable tr:hover {
     background-color: #98caff;
-    border: 2px dotted;
 }
 
 #random {
     background-color: #98caff;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }

@@ -6,6 +6,7 @@ body {
 .injuryTable {
     border: 1px solid;
     width: 100%;
+    border-collapse: separate;
 }
 
 .injuryTable th {
@@ -19,9 +20,17 @@ body {
 
 .injuryTable tr:hover {
     background-color: #98caff;
-    border: 2px dotted;
 }
 
 #random {
     background-color: #98caff;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.sticky>th {
+    border: 1px solid;
 }
