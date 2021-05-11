@@ -32,6 +32,7 @@ a:nth-child(2) li{border-color: #8bc63e;}
 a:nth-child(3) li{border-color: #fcba30;}
 a:nth-child(4) li{border-color: #1ccfc9;}
 a:nth-child(5) li{border-color: #cf1ca2;}
+a:nth-child(6) li{border-color: #1c55cf;}
 
 a:hover li{border-left: 10px solid transparent;}
 a:nth-child(1):hover li{border-right: 10px solid #f05d22;}
@@ -39,3 +40,4 @@ a:nth-child(2):hover li{border-right: 10px solid #8bc63e;}
 a:nth-child(3):hover li{border-right: 10px solid #fcba30;}
 a:nth-child(4):hover li{border-right: 10px solid #1ccfc9;}
 a:nth-child(5):hover li{border-right: 10px solid #cf1ca2;}
+a:nth-child(6):hover li{border-right: 10px solid #1c55cf;}
